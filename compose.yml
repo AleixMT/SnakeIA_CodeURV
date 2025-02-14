@@ -1,0 +1,8 @@
+services:
+  snakegame:
+    build: .
+    container_name: snake_game
+    stdin_open: true
+    tty: true  # Required for ncurses to work properly
+    environment:
+      - TERM=xterm

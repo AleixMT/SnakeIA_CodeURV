@@ -1,0 +1,31 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+*.venv
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore temporary files
+*.swp
+*.swo
+
+# Ignore Docker-related files that shouldn’t be copied into the container
+docker-compose.yml
+compose.yml
+Dockerfile
+
+# Own rules
+README.txt
+Makefile
